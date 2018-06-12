@@ -18,3 +18,23 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pen {
+    display: flex;
+    flex-direction: column;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+}
+
+.glasses {
+    display: flex;
+    flex-direction: column;
+}
