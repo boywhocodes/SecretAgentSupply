@@ -17,9 +17,16 @@ header {
     align-items: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: firebrick;
+}
+
 .products {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .product {
@@ -30,8 +37,18 @@ header {
     height: 13rem;
 }
 
+.product img {
+    width: auto;
+    height: 9rem;
+}
+
 .width-content {
     width: 960px;
+    display: flex;
+    justify-content: center;
+}
+
+.width-container {
     display: flex;
     justify-content: center;
 }
