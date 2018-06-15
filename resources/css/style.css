@@ -84,3 +84,9 @@ nav {
     justify-content: flex-end;
     flex-direction: column;
 }
+
+@media only screen and (max-width:450px) {
+    .main-content {
+        background-color: blue;
+    }
+}
