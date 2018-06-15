@@ -7,6 +7,23 @@ html {
     width: 100%;
 }
 
+
+/* WIDTH CONTENT AND CONTAINER ALLOW FOR ITEMS TO BE CENTERED WITH 960PX WIDTH */
+
+.width-content {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+}
+
+.width-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* HEADER */
+
 header {
     background-color: black;
     width: 100%;
@@ -21,7 +38,11 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: firebrick;
+    width: 960px;
 }
+
+
+/* PRODUCT LISTING */
 
 .products {
     display: flex;
@@ -42,13 +63,24 @@ nav {
     height: 9rem;
 }
 
-.width-content {
-    width: 960px;
+
+/* COMPANY DETAILS */
+
+.company-details {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
 }
 
-.width-container {
+.location {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.hours {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
